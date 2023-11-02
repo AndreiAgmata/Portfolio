@@ -1,0 +1,55 @@
+.circle {
+    width: 547px;
+    height: 547px;
+    -webkit-border-radius: 547px;
+    -moz-border-radius: 547px;
+    border-radius: 547px;
+    background: gray;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+  }
+
+  .circleGo{
+    width: 547px;
+    height: 547px;
+    -webkit-border-radius: 547px;
+    -moz-border-radius: 547px;
+    border-radius: 547px;
+    background: rgb(106, 255, 84);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+  }
+
+  .circleEnd{
+    width: 547px;
+    height: 547px;
+    -webkit-border-radius: 547px;
+    -moz-border-radius: 547px;
+    border-radius: 547px;
+    background: rgb(255, 64, 64);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+  }
+
+  .number{
+    font-size: 400px !important
+  }
+
+  .countdownButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
